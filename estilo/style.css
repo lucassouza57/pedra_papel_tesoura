@@ -87,20 +87,20 @@
 		}
 
 		.player-one {
-			color: #f44336;
-		}
-
-		.player-two {
 			color: #4caf50;
 		}
 
-		.player-one-win {
+		.player-two {
 			color: #f44336;
+		}
+
+		.player-one-win {
+			color: #4caf50;
 			font-size: 36px;
 		}
 
 		.player-two-win {
-			color: #4caf50;
+			color: #f44336;
 			font-size: 36px;
 		}
 

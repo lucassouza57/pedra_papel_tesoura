@@ -87,10 +87,10 @@ function displayResult(winner, playerChoice, computerChoice) {
   // Verifica o vencedor e exibe a mensagem correspondente
   if (winner === "player") {
     winnerResult.classList.add("player-one-win");
-    winnerResult.textContent = "Jogador venceu!";
+    winnerResult.textContent = "Vitoria!";
   } else if (winner === "computer") {
     winnerResult.classList.add("player-two-win");
-    winnerResult.textContent = "A casa venceu!";
+    winnerResult.textContent = "Derrota!";
   } else {
     winnerResult.classList.add("tie");
     winnerResult.textContent = "Empate!";
