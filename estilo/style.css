@@ -92,6 +92,7 @@
 
 		.player-two {
 			color: #f44336;
+			
 		}
 
 		.player-one-win {
@@ -109,22 +110,24 @@
 			font-size: 36px;
 		}
 
+		
+
 		.restart {
-      width: 150px;
-			margin: 3em auto;
+			width: 200px;
+			margin: 1em 1em 1em 1em ;
 			font-size: 24px;
-			color: #fff;
+			color: #0d1636;
 			cursor: pointer;
 			transition: all 0.3s ease-in-out;
-      padding: .5em 1.5em;
-      border: 1px solid #fff;
-      border-radius: 1em;
+			padding: .5em 1.5em;
+			border: 1px solid #fff;
+			border-radius: 1em;
 		}
 
 		.restart:hover {
 			transform: scale(1.1);
-      background-color: #fff;
-      color: #0d1636;
+      background-color: #0d1636;
+      color: #fff;
       font-weight: bolder;
 		}
 

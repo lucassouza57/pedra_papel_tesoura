@@ -2,7 +2,12 @@
 function restart() {
   // Limpa o resultado
   document.querySelector(".result").innerHTML = "";
+
+  // Torna o container de escolha visível novamente
+  const escolha = document.querySelector(".container");
+  escolha.style.display = 'flex';
 }
+
 
 // Função para obter a escolha do jogador
 function getPlayerChoice() {
@@ -56,9 +61,10 @@ function determineWinner(playerChoice, computerChoice) {
   return "computer";
 }
 
-// Função para exibir o resultado
+//Função para exibir o resultado
 function displayResult(winner, playerChoice, computerChoice) {
   const resultDiv = document.querySelector(".result");
+
 
   // Limpa o resultado anterior
   resultDiv.innerHTML = "";
@@ -102,6 +108,9 @@ function displayResult(winner, playerChoice, computerChoice) {
   resultDiv.appendChild(computerResult);
   resultDiv.appendChild(computerImage); // Adiciona a imagem do computador
   resultDiv.appendChild(winnerResult);
+  // Oculta o container de escolha
+  const escolha = document.querySelector(".container");
+  escolha.style.display = 'none';
 }
 
 // Função para iniciar o jogo
